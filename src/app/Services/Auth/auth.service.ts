@@ -16,7 +16,7 @@ interface LoginResponse {
 export class AuthService {
   [x: string]: any;
 
-  private baseUrl = 'http://localhost:5007/zam';
+  private baseUrl = 'https://zami-khaya-api-three.vercel.app/';
 
   constructor(private http: HttpClient) {}
 
