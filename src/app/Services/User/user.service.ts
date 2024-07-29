@@ -6,7 +6,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class UserService {
-  private baseUrl = 'http://localhost:5007/zam';
+  private baseUrl = 'https://zami-khaya-api-three.vercel.app/zam';
 
   constructor(private http: HttpClient) { }
 
