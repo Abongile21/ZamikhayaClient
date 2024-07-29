@@ -8,7 +8,7 @@ import { AuthService } from '../Auth/auth.service';
 })
 export class PropertyService {
   
-  apiUrl = 'https://zami-khaya-api-three.vercel.app//properties';
+  apiUrl = 'https://zami-khaya-api-three.vercel.app/zam/properties';
     
   favCount = new BehaviorSubject<number>(0);
   favList: any[] = [];
